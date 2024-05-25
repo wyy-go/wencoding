@@ -1,5 +1,20 @@
-module github.com/wyy-go/go-cli-template
+module github.com/wyy-go/wencoding
 
-go 1.16
+go 1.21
 
-require github.com/spf13/cobra v1.6.1
+require (
+	github.com/go-playground/form/v4 v4.2.1
+	github.com/google/go-cmp v0.6.0
+	github.com/pelletier/go-toml/v2 v2.2.2
+	github.com/spf13/cast v1.6.0
+	github.com/stretchr/testify v1.9.0
+	github.com/ugorji/go/codec v1.2.12
+	google.golang.org/genproto/googleapis/api v0.0.0-20240521202816-d264139d666e
+	google.golang.org/protobuf v1.34.1
+	gopkg.in/yaml.v3 v3.0.1
+)
+
+require (
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+)

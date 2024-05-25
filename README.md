@@ -1,33 +1,36 @@
-[![GoDoc](https://godoc.org/github.com/wyy-go/go-cli-template?status.svg)](https://godoc.org/github.com/wyy-go/go-cli-template)
-[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/github.com/wyy-go/go-cli-template?tab=doc)
-[![codecov](https://codecov.io/gh/wyy-go/go-cli-template/branch/main/graph/badge.svg)](https://codecov.io/gh/wyy-go/go-cli-template)
-[![Tests](https://github.com/wyy-go/go-cli-template/actions/workflows/ci.yaml/badge.svg)](https://github.com/wyy-go/go-cli-template/actions/workflows/ci.yaml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/wyy-go/go-cli-template)](https://goreportcard.com/report/github.com/wyy-go/go-cli-template)
-[![Licence](https://img.shields.io/github/license/wyy-go/go-cli-template)](https://raw.githubusercontent.com/wyy-go/go-cli-template/main/LICENSE)
-[![Tag](https://img.shields.io/github/v/tag/wyy-go/go-cli-template)](https://github.com/wyy-go/go-cli-template/tags)
+# wencoding
 
-# go-cli-template
-This is template that help you to quick implement some CLI using Go.
+http wencoding toolkit  
 
-This repository is contains following.
+[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/github.com/wyy-go/wencoding?tab=doc)
+[![codecov](https://codecov.io/gh/wyy-go/wencoding/branch/main/graph/badge.svg)](https://codecov.io/gh/wyy-go/wencoding)
+[![Tests](https://github.com/wyy-go/wencoding/actions/workflows/ci.yml/badge.svg)](https://github.com/wyy-go/wencoding/actions/workflows/ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/wyy-go/wencoding)](https://goreportcard.com/report/github.com/wyy-go/wencoding)
+[![Licence](https://img.shields.io/github/license/wyy-go/wencoding)](https://raw.githubusercontent.com/wyy-go/wencoding/main/LICENSE)
+[![Tag](https://img.shields.io/github/v/tag/wyy-go/wencoding)](https://github.com/wyy-go/wencoding/tags)
 
-- minimal CLI implementation using [spf13/cobra](https://github.com/spf13/cobra)
-- CI/CD
-  - [golangci-lint](https://golangci-lint.run/usage/linters/)
-  - go test
-  - goreleaser
-  - dependabot for github-actions and Go
-  - CodeQL Analysis (Go)
+## Usage
 
-## How to use
-1. fork this repository
-2. replace `wyy-go` to your user name using `sed`(or others)
-3. run `make init`
+`wencoding`是一个`http`编解码器.
 
-## Author
-wyy-go
+### Installation
+
+Use go get.
+
+```bash
+    go get github.com/wyy-go/wencoding
+```
+
+Then import the package into your own code.
+
+```bash
+    import "github.com/wyy-go/wencoding"
+```
+
+### Example
 
 ## References
 
-- [go-cli-template](https://github.com/skanehira/go-cli-template)
+## License
 
+This project is under MIT License. See the [LICENSE](LICENSE) file for the full license text.
